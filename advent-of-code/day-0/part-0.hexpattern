@@ -1,0 +1,356 @@
+/// Reader Wisp:
+{
+	/// Setup
+	Muninn's Reflection
+	Nullary Reflection
+	Equality Distillation
+	{ // If True
+		Compass' Purification
+		Vector Reflection -Y
+		Archer's Distillation
+		Reader's Purification
+		Flock's Disintegration
+		Huginn's Gambit
+	}
+	{ // If False
+		Aergia's Gambit
+	}
+	Flock's Disintegration
+
+	Augur's Exaltation
+	Hermes' Gambit
+
+	/// When Finished
+	// If we have handled the full string, kill this wisp
+	Muninn's Reflection
+	Length Distillation: Str
+	Numerical Reflection: 0
+	Equality Distillation
+	{ // If True
+		Identity Reflection
+		Vector Reflection +Z
+		Numerical Reflection: 10
+		Gemini Decomposition
+		Power Distillation
+		Multiplicative Distillation
+		Impulse
+	}
+	{ // If False
+		Aergia's Gambit
+	}
+	Flock's Disintegration
+	
+	Augur's Exaltation
+	Hermes' Gambit
+
+	// Count of how many chars have been seen
+	Numerical Reflection: 0
+	
+	/// Process Line
+	{
+		Gemini Decomposition
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far
+
+		Muninn's Reflection
+		Gemini Decomposition
+		Breaking Reflection
+		Discoverer's Distillation
+
+		// index of first line break
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far
+
+		Gemini Decomposition
+		Numerical Reflection: 0
+		Minimus Distillation
+		{ // If True
+			Bookkeeper's Gambit: v
+			Gemini Decomposition
+			Length Distillation: Str
+		}
+		{ // If False
+			Aergia's Gambit
+		}
+		Flock's Disintegration
+
+		Augur's Exaltation
+		Hermes' Gambit
+		
+		Dioscuri Gambit
+		// index of first line break (or string length)
+		// Full string
+		// index of first line break (or string length)
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far
+		
+		Numerical Reflection: 0
+		Jester's Gambit
+		Winnowing Distillation
+		
+		// first line
+		// index of first line break
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far
+
+		Gemini Decomposition
+		Length Distillation: Str
+		Numerical Reflection: 7
+		Fisherman's Gambit
+		
+		// num chars seen so far
+		// length first line
+		// first line
+		// index of first line break
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+
+		Additive Distillation
+		Flock's Reflection
+		Flock's Gambit
+		Retrograde Purification
+		Speaker's Decomposition
+		Jester's Gambit
+		Retrograde Purification
+		Flock's Disintegration
+
+		// first line
+		// index of first line break
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Numerical Reflection: 0
+		Jester's Gambit
+		Send Iota
+		
+		// index of first line break
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Prospector's Gambit
+		Length Distillation: Str
+		Dioscuri Gambit
+
+		// length of full string
+		// index of first line break
+		// length of full string
+		// index of first line break
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Equality Distillation
+		Numerical Reflection: 0
+		Numerical Reflection: 1
+		Augur's Exaltation
+		Rotation Gambit
+		Additive Distillation
+		Jester's Gambit
+
+		// length of full string
+		// index of first line break (+1 if this isn't the last line)
+		// Full string
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Winnowing Distillation
+		
+		// Full String minus first line
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Huginn's Gambit
+		
+		Numerical Reflection: 2
+		Fisherman's Gambit II
+		Numerical Reflection: 400
+		Minimus Distillation
+		
+		// seen less than 400 chars True/False
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Muninn's Reflection
+		Length Distillation: Str
+		Numerical Reflection: 0
+		Inequality Distillation
+		Conjunction Distillation
+		
+		// seen less than 400 chars and lines still to go True/False
+		// Copy of this pattern list
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Jester's Gambit
+
+		{ // If False
+			Bookkeeper's Gambit: vv
+		}
+		Flock's Disintegration
+		
+		// Aergia's Gambit
+		// Copy of this pattern list
+		// seen less than 400 chars and lines still to go True/False
+		// Copy of this pattern list
+		// num chars seen so far (including first line)
+
+		Augur's Exaltation
+		Hermes' Gambit
+	}
+	Gemini Decomposition
+	Hermes' Gambit
+}
+
+/// Solver Wisp:
+{
+	// Setup
+	Listen
+	Postmaster's Reflection
+	Numerical Reflection: 0
+	Equality Distillation
+	{ // If True
+		// Initialise Current Answer Sum
+		// (in ravenmind since apparently
+		//  wisp stack is cleared if Charon's
+		//  used on outermost eval.)
+		Numerical Reflection: 0
+		Huginn's Gambit
+
+		{
+			Charon's Gambit
+		}
+		Flock's Disintegration
+	}
+	Single's Purification
+	{ // If False
+		Aergia's Gambit
+		Aergia's Gambit
+	}
+	Augur's Exaltation
+	Flock's Disintegration
+	
+	Hermes' Gambit
+	Hermes' Gambit
+
+	Muninn's Reflection
+
+	// Read Lines from Link Queue
+	{
+		Recitation Reflection
+		
+		// Single Line String
+		// Current Answer Sum
+			
+		Blank Reflection
+		Separation Distillation
+		
+		// [Single Char Strings]
+		// Current Answer Sum
+
+		Vacant Reflection
+		Huginn's Gambit
+
+		/// Add Digit to List
+		{
+			// Single Char
+			// Current Answer Sum
+			Gemini Decomposition
+			Single's Purification
+			Jester's Gambit
+			Input Purification
+
+			// Num/Null
+			// [Single Char]
+			// Current Answer Sum
+
+			Nullary Reflection
+			Inequality Distillation
+			Jester's Gambit
+			Vacant Reflection
+
+			// []
+			// [Single Char]
+			// False/True
+			// Current Answer Sum
+
+			Augur's Exaltation
+			// [Single Digit]/[]
+			// Current Answer Sum
+
+			Muninn's Reflection
+			// [Single Digits]
+			// [Single Digit]/[]
+			// Current Answer Sum
+			Combination Distillation
+			Huginn's Gambit
+			// Current Answer Sum
+		}
+
+		Jester's Gambit
+		Thoth's Gambit
+		Bookkeeper's Gambit: v
+		// Current Answer Sum
+		
+		Muninn's Reflection
+		Gemini Decomposition
+		Retrograde Purification
+		Speaker's Decomposition
+		Bookkeeper's Gambit: v-
+		Jester's Gambit
+		
+		Speaker's Decomposition
+		Bookkeeper's Gambit: v-
+		Concatenation Distillation
+		Input Purification
+		
+		// Number
+		// Current Answer Sum
+
+		Additive Distillation
+		// Current Answer Sum
+	}
+
+	Postmaster's Reflection
+	Gemini Gambit
+	
+	// N copies of the above pattern list
+
+	{
+		Combination Distillation
+	}
+	Flock's Disintegration
+	
+	Postmaster's Reflection
+	Numerical Reflection: 1
+	Subtractive Distillation
+	Gemini Gambit
+	
+	Postmaster's Reflection
+	Numerical Reflection: 1
+	Subtractive Distillation
+	Flock's Gambit
+	
+	Hermes' Gambit
+	Hermes' Gambit
+	
+	// Current Answer Sum
+	Reveal
+
+	Huginn's Gambit
+}

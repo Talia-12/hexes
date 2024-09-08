@@ -1,0 +1,48 @@
+[
+	Consideration: [Dirt, Stone, Deepslate, Sand, Gravel]
+	Huginn's Gambit
+	Mind's Reflection
+	Compass' Purification
+	Mind's Reflection
+	Alidade's Purification
+	Prospector's Gambit
+	Prospector's Gambit
+	Architect's Distillation
+	Numerical Reflection: -1
+	Multiplicative Distillation
+	Rotation Gambit II
+	Archer's Distillation // stack: dir, pos; ravenmind: block_types_to_break
+	{
+		Gemini Decomposition
+		Sorter's Purification
+		Muninn's Reflection
+		Jester's Gambit
+		Locator's Distillation
+		Numerical Reflection: -1
+		Equality Distillation // stack: dir, pos, should_leave_block_aloone
+		{
+			Bookkeeper's Gambit: -
+		}
+		Flock's Disintegration
+		{
+			Gemini Decomposition
+			Break Block
+		}
+		Augur's Exaltation
+		Hermes' Gambit
+		Prospector's Gambit
+		Additive Distillation
+	}
+	Numerical Reflection: 32
+	Gemini Gambit
+	{
+		Combination Distillation
+	}
+	Flock's Disintegration
+	Numerical Reflection: 31
+	Gemini Gambit
+	Numerical Reflection: 31
+	Flock's Gambit
+	Hermes' Gambit
+	Hermes' Gambit
+]

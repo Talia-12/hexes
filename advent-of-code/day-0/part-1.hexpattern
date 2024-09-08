@@ -1,0 +1,242 @@
+// Keeping the same Reader wisp
+
+#define Scrivener's Purification II (NORTH_WEST wdwewdwdw) = list -> str
+// ["a", "b"] -> '"a", "b"'
+{
+	Scrivener's Purification
+	
+	Numerical Reflection: 1
+	
+	Prospector's Gambit
+	Length Distillation: Str
+	Numerical Reflection: 1
+	Subtractive Distillation
+	
+	Winnowing Distillation
+}
+
+#define Separation Purification (WEST edwede) = str -> [str]
+// split a string into individual characters with the empty string stripped
+{
+	Blank Reflection
+	Separation Distillation
+	
+	Blank Reflection
+	Single's Purification
+
+	Undertaker's Gambit
+	Combination Distillation
+	Exclusionary Distillation
+}
+
+/// Solver Wisp:
+{
+	// Setup
+	Listen
+	Postmaster's Reflection
+	Numerical Reflection: 0
+	Equality Distillation
+	{ // If True
+		// Initialise Current Answer Sum
+		// (in ravenmind since apparently
+		//  wisp stack is cleared if Charon's
+		//  used on outermost eval.)
+		Numerical Reflection: 0
+		Huginn's Gambit
+
+		{
+			Charon's Gambit
+		}
+		Flock's Disintegration
+	}
+	Single's Purification
+	{ // If False
+		Aergia's Gambit
+		Aergia's Gambit
+	}
+	Augur's Exaltation
+	Flock's Disintegration
+	
+	Hermes' Gambit
+	Hermes' Gambit
+
+	Muninn's Reflection
+
+	// Read Lines from Link Queue
+	{
+		Recitation Reflection
+		
+		// Single Line String
+		// Current Answer Sum
+		
+		{
+			// Constant [["1", "1"], ["1", "one"], ["2", "2"], ["2", "two"], ...]
+		}
+		Flock's Disintegration
+		
+		// Construct data for Ravenmind
+		Numerical Reflection: 100000 // Mininum Index Seen
+		Numerical Reflection: -1     // number that achieved minimum
+		Numerical Reflection: -1     // Maximum Index Seen
+		Numerical Reflection: -1     // number that achieved maximum
+		Numerical Reflection: 4
+		Flock's Gambit
+		Huginn's Gambit
+
+		/// Check Next Min & Max
+		{
+			// [number, number_str]
+			// Single Line String
+			// Current Answer Sum
+
+			Flock's Disintegration
+			Rotation Gambit
+
+			Dioscuri Gambit
+
+			// Single Line String
+			// number_str
+			// Single Line String
+			// number_str
+			// number
+			// Current Answer Sum
+
+			Jester's Gambit
+			Discoverer's Distillation
+			
+			// Index of number_str in String
+			// Single Line String
+			// number_str
+			// number
+			// Current Answer Sum
+
+			Numerical Reflection: 3
+			Fisherman's Gambit II
+			Muninn's Reflection
+			Flock's Disintegration
+			
+			// number that achieved maximum
+			// Maximum Index Seen
+			// number that achieved minimum
+			// Mininum Index Seen
+			// number
+			// Index of number_str in String
+			// Single Line String
+			// number_str
+			// number
+			// Current Answer Sum
+
+			Numerical Reflection: 5
+			Fisherman's Gambit II
+			Numerical Reflection: 3
+			Fisherman's Gambit II
+			Minimus Distillation
+			{ 
+				Bookkeeper's Gambit: vv--   // If True
+				Bookkeeper's Gambit: vv---- // If False
+			}
+			Flock's Disintegration
+			
+			Augur's Exaltation
+			Hermes' Gambit
+
+			// number that achieved maximum
+			// Maximum Index Seen
+			// number that achieved minimum
+			// Mininum Index Seen
+			// Single Line String
+			// number_str
+			// number
+			// Current Answer Sum
+			
+			Numerical Reflection: 5
+			Fisherman's Gambit
+			Retrograde Purification
+			Numerical Reflection: 6
+			Retrograde Purification
+			Discoverer's Distillation
+			Numerical Reflection: 6
+			Fisherman's Gambit
+			
+			// number
+			// Index of rev-number_str in rev-String
+			// number that achieved maximum
+			// Maximum Index Seen
+			// number that achieved minimum
+			// Mininum Index Seen
+			// Current Answer Sum
+
+			Numerical Reflection: 1
+			Fisherman's Gambit II
+			Numerical Reflection: 3
+			Fisherman's Gambit II
+			Maximus Distillation
+			{ 
+				Bookkeeper's Gambit: vv-- // If True
+				Bookkeeper's Gambit: vv   // If False
+			}
+			Flock's Disintegration
+			
+			Augur's Exaltation
+			Hermes' Gambit
+
+			// number that achieved maximum
+			// Maximum Index Seen
+			// number that achieved minimum
+			// Mininum Index Seen
+			// Current Answer Sum
+
+			Numerical Reflection: 4
+			Flock's Gambit
+			Huginn's Gambit
+		}
+
+		Jester's Gambit
+		Thoth's Gambit
+		Bookkeeper's Gambit: vv
+		
+		// Current Answer Sum
+
+		Muninn's Reflection
+		Flock's Disintegration
+		Bookkeeper's Gambit: v-v-
+		
+		// number that achieved maximum
+		// number that achieved minimum
+		// Current Answer Sum
+
+		Concatenation Distillation
+		Input Purification
+		Additive Distillation
+
+		// Current Answer Sum
+	}
+
+	Postmaster's Reflection
+	Gemini Gambit
+	
+	// N copies of the above pattern list
+
+	{
+		Combination Distillation
+	}
+	Flock's Disintegration
+	
+	Postmaster's Reflection
+	Numerical Reflection: 1
+	Subtractive Distillation
+	Gemini Gambit
+	
+	Postmaster's Reflection
+	Numerical Reflection: 1
+	Subtractive Distillation
+	Flock's Gambit
+	
+	Hermes' Gambit
+	Hermes' Gambit
+	
+	// Current Answer Sum
+	Reveal
+
+	Huginn's Gambit
+}

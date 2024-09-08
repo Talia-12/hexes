@@ -1,0 +1,38 @@
+{
+	Mind's Reflection
+	Compass' Purification
+	Mind's Reflection
+	Alidade's Purification
+	Prospector's Gambit
+	Prospector's Gambit
+	Archer's Distillation
+	Rotation Gambit II
+	Architect's Distillation
+	Additive Distillation
+	Numerical Reflection: 1
+	Zone Distillation: Item
+	{
+		Gemini Decomposition
+		Sorter's Purification
+		{
+			Bookkeeper's Gambit: - // replace with [Amethyst, Amethyst Dust, Charged Amethyst]
+		}
+		Flock's Disintegration
+		Jester's Gambit
+		Locator's Distillation
+		Numerical Reflection: -1
+		Inequality Distillation
+		{
+			Recharge Item
+		}
+		Flock's Disintegration
+		{
+			Bookkeeper's Gambit: v
+		}
+		Flock's Disintegration
+		Augur's Exaltation
+		Hermes' Gambit
+	}
+	Jester's Gambit
+	Thoth's Gambit
+}
